@@ -6,7 +6,7 @@ target 'CKWebSocketHello-iOS' do
   use_frameworks!
 
   # Pods for CKWebSocketHello-iOS
-  pod 'Starscream', '~> 3.0.2'
+  pod 'StompClientLib', '~> 1.2.2'
 
   target 'CKWebSocketHello-iOSTests' do
     inherit! :search_paths
